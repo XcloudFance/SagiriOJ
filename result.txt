@@ -1,0 +1,16 @@
+time:0.015s
+memory:2.1796875mb
+Test 0.out Accepted
+time:0.0s
+memory:2.1796875mb
+Test 1.out Accepted
+time:0.015s
+memory:2.296875mb
+Test 2.out Accepted
+time:0.0s
+memory:2.1796875mb
+Test 3.out Accepted
+time:0.015s
+memory:2.1796875mb
+Test 4.out Accepted
+您的总分为:100result:Accepted

@@ -1,0 +1,8 @@
+1.电脑里得有python解释器
+2.path必须有g++目录（可以下载mingw的g++/gcc版本，然后添加到path，或者用devcpp的mingw）
+3.win7环境必须关掉"此程序停止运行"才可以正常使用，否则RuntimeError很可能出错而且因为会多次调用cmd所以win7一定会爆
+4.OJ运行环境必须是64位
+建议系统:win10,win8,win8.1
+
+SagiriOJ为COJ的SpecialJudge版本
+精简掉了许多不必要的累赘功能
