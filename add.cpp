@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+array<int,1000> s;
 int main()
 {
 	freopen("add.in","r",stdin);

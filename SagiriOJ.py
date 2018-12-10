@@ -8,6 +8,7 @@ from task import *
 from defender import *
 from admin import *
 from MakeSagiri import *
+from cmpcpp11 import *
 class Getini:
     def getlink(self):
         fs=open("link.ini","r",encoding="gbk")
@@ -21,7 +22,7 @@ class Getini:
         f=String32.split("|")
         fs.close()
         return f
-os.system("del "+sys.path[0]+"\\demo.exe")
+os.system("cd "+sys.path[0]+" & del "+sys.path[0]+"\\demo.exe")
 print("============================欢迎来到Sagiri OpenJudge评测===================================")
 print("请确定根目录有测试数据后开始执行")
 getini=Getini()
@@ -56,8 +57,9 @@ if(lang!=" "):
         if(lang=="c"):
             compiles=cl()
             compiles.filename=p+".c"
-        else:
-            print("输入错误!请输入正确的语言")
+        elif(lang=="c++11"):
+            compiles=cplus11()
+            compiles.filename=p+".cpp"
     if(not compiles.compiletest()):
          endres="CompileError"
          print("您的总分为:"+str(total))
